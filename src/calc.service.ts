@@ -15,6 +15,14 @@ export class CalcService {
 
     console.log("Hello from CalcService!!!");
 
+    public newname1(...params: number[]): number {
+    let result = 0;
+    for (let val of params) {
+        result += val;
+    };
+
+    console.log("Hello from CalcService!!!");
+
 
 
     return result;

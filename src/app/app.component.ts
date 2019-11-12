@@ -16,6 +16,8 @@ export class AppComponent  {
 
   sum2: number = 0;
 
+  test1: number = 0;
+
 
   constructor(calc:CalcService) {
     //Use calc
@@ -24,6 +26,9 @@ export class AppComponent  {
 
     //this.sum2 = calc.cshbot(4,8,3,5,76);
   }
+
+  constructor(calc:CalcService) {
+    this.sum = calc.barneyrubble(1,2,3,40);
 
   ngOnInit()  {
       //hello()
